@@ -1,1 +1,427 @@
-Hello World
+<HEAD>
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>CODATA RDA Vanilla School Trieste 2016 - swcarpentry module</title>
+  <meta name="description" content="Programme and material for the software carpentry module at the CODATA RDA Vanilla School Trieste 2016
+">
+
+  <link rel="stylesheet" href="/codata-rda-vanilla-trieste-swcarpentry/css/main.css">
+  <link rel="canonical" href="/codata-rda-vanilla-trieste-swcarpentry/index.html">
+<!--
+  <link rel="alternate" type="application/atom+xml" title="EMBO Budapest" href="/codata-rda-vanilla-trieste-swcarpentry/feed.xml" />
+</head>
+-->
+
+  <body>
+
+    <header class="site-header">
+
+    <div class="wrapper">
+
+    <a class="site-title" href="/codata-rda-vanilla-trieste-swcarpentry/">CODATA RDA Vanilla School Trieste 2016 - swcarpentry module</a>
+
+<!--
+    <a href="http://embo.org"><img src="/codata-rda-vanilla-trieste-swcarpentry/images/EMBO_logo.gif" height="70"></a>
+    <a href="http://ttk.elte.hu/"><img src="/codata-rda-vanilla-trieste-swcarpentry/images/ELTE_logo.gif" height="70"></a>
+    <a href="http://www.embo.org/events/practical-courses"><img src="/codata-rda-vanilla-trieste-swcarpentry/images/EMBO_PracticalCourse.gif" height="70"></a>
+
+-->
+
+        <nav class="site-nav">
+        
+    <!-- see http://www.chrisanthropic.com/blog/2014/using-_data-to-build-jekyll-navigation/ -->
+
+            <nav class="animenu">   
+
+            <ul>
+        
+            <li><a href='/codata-rda-vanilla-trieste-swcarpentry/index.html'>Software Carpentry module programme</a></li>
+            <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/the_unix_shell/the_unix_shell.html'>The Unix Shell</a></li>
+            <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/version_control_with_git/version_control_with_git.html'>Version Control with Git</a></li>
+            <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/programming_with_r/programming_with_r.html'>Programming with R</a></li>
+            <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/using_database_and_sql/using_database_and_sql.html'>Using Database and SQL</a></li>
+      
+            </ul>
+
+            </nav> 
+
+        </nav>
+
+    </div>
+
+    </header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+    <header class="post-header">
+        <h1 class="post-title">Software Carpentry Module</h1>
+
+<!-- put here any additional information for this course -->
+
+<b>Etherpad:</b> <a href="http://pad.software-carpentry.org/2016-08-01-site">http://pad.software-carpentry.org/2016-08-01-site</a> 
+<br>We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code. 
+
+<!-- -->
+
+        <h1 class="post-title">Programme</h1>
+    </header>
+
+    <article class="post-content">
+
+    
+<style>
+
+tr:nth-child(even) {
+    background-color: #DDDDDD;
+};
+
+td:nth-child(1) { width:25%; }
+td:nth-child(2) { width:25%; }
+td:nth-child(3) { width:25%; }
+td:nth-child(4) { width:25%; }
+
+</style>
+
+
+<!--
+<h2 id="other-relevant-links">Other relevant links</h2>
+
+<ul>
+  <li>EMBO-hosted <a href="http://events.embo.org/16-protein-protein/">webpage for the course</a></li>
+  <li>Twitter search results for for <a href="https://twitter.com/search?q=%23EMBOPPI&amp;src=typd&amp;lang=en-gb">#EMBOPPI</a> and <a href="https://twitter.com/AidanBudd/lists/embo-2016-ppi-tweeps">Course tweeters list</a></li>
+</ul>
+-->
+
+<h2 id="day-1---monday-01-august-2016">DAY 1 - Monday  01 August 2016</h2>
+
+<h3 id="main tutors stefano cozzini---allegra via">Main tutors: Stefano Cozzini - Allegra Via</h3>
+
+<table>
+<!--
+    <colgroup>
+       <col span="1" style="width: 25%;">
+       <col span="1" style="width: 40%;">
+       <col span="1" style="width: 35%;">
+    </colgroup>
+-->
+
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: left">Activity</th>
+      <th style="text-align: left">Responsible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">09.00–09.15</td>
+      <td style="text-align: left"><b>Introduction</b></td>
+      <td style="text-align: left"><b>Speaker:</b> Ivan Girotto</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">09.15–10.15</td>
+      <td style="text-align: left"><b>Open Science</b></td>
+      <td style="text-align: left"><b>Speaker</b>: Loise Bezuidenhout</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10:15–11:45</td>
+      <td style="text-align: left"><a href="trainingMaterial/the_unix_shell/the_unix_shell.html">The Unix Shell</a></td>
+      <td style="text-align: left">Stefano Cozzini & Allegra Via</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11:45–12:00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12:00–13:00</td>
+      <td style="text-align: left"><a href="trainingMaterial/the_unix_shell/the_unix_shell.html">The Unix Shell</a></td>
+      <td style="text-align: left">Stefano Cozzini & Allegra Via</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13:00–14:00</td>
+      <td style="text-align: left"><em>Lunch</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14:00–15:30</td>
+      <td style="text-align: left"><a href="trainingMaterial/the_unix_shell/the_unix_shell.html">The Unix Shell</a></td>
+      <td style="text-align: left">Stefano Cozzini & Allegra Via</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15:30–16:00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16:00–18:00</td>
+      <td style="text-align: left"><a href="trainingMaterial/version_control_with_git/version_control_with_git.html">Version Control with Git</a></td>
+      <td style="text-align: left">Nicola Cavallini & Alberto Sartori</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="day-2---tuesday-02-august-2016">DAY 2 - Tuesday 02 August 2016</h2>
+
+<h3 id="main tutor-vincenza colonna">Main Tutor: Vincenza Colonna</h3>
+
+<table>
+<!--
+    <colgroup>
+       <col span="1" style="width: 25%;">
+       <col span="1" style="width: 40%;">
+       <col span="1" style="width: 35%;">
+-->
+    </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: left">Activity</th>
+      <th style="text-align: left">Responsible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">09.00–10.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/version_control_with_git/version_control_with_git.html">Version Control with Git</a></td>
+      <td style="text-align: left">Nicola Cavallini & Alberto Sartori</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10.30–11.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11.00–13.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/version_control_with_git/version_control_with_git.html">Version Control with Git</a></td>
+      <td style="text-align: left">Nicola Cavallini & Alberto Sartori</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13.00–14.00</td>
+      <td style="text-align: left"><em>Lunch</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14.00–15.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/programming_with_r/programming_with_r.html">Programming with R</a></td>
+      <td style="text-align: left">Vincenza Colonna</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15.30–16.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16.00–18.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/programming_with_r/programming_with_r.html">Programming with R</a></td>
+      <td style="text-align: left">Vincenza Colonna</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="day-3---wednesday-03-august-2016">DAY 3 - Wednesday 03 August 2016</h2>
+
+<h3 id="main-tutors-vincenza-colonna---giuseppe-profiti">Main Tutors: Vincenza Colonna - Giuseppe Profiti</h3>
+
+<table>
+<!--
+    <colgroup>
+       <col span="1" style="width: 25%;">
+       <col span="1" style="width: 40%;">
+       <col span="1" style="width: 35%;">
+    </colgroup>
+-->
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: left">Activity</th>
+      <th style="text-align: left">Responsible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">09.00–10.00</td>
+      <td style="text-align: left"><b>Open Science</b></td>
+      <td style="text-align: left"><b>Speaker:</b> Loise Bezuidenhout</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">09.00–10.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/programming_with_r/programming_with_r.html">Programming with R</a></td>
+      <td style="text-align: left">Vincenza Colonna</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10.30–11.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11.00–13.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/programming_with_r/programming_with_r.html">Programming with R</a></td>
+      <td style="text-align: left">Vincenza Colonna</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13.00–14.00</td>
+      <td style="text-align: left"><em>Lunch</em> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14.00–15.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql/using_database_and_sql.html">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15.30–16.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16.00–18.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql/using_database_and_sql.html">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="day-4---thursday-02-june-2016">DAY 4 - Thursday 04 August 2016</h2>
+<h3 id="main-tutor-giuseppe-profiti">Main Tutor: Giuseppe Profiti</h3>
+
+<table>
+<!--
+    <colgroup>
+       <col span="1" style="width: 25%;">
+       <col span="1" style="width: 40%;">
+       <col span="1" style="width: 35%;">
+    </colgroup>
+-->
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: left">Activity</th>
+      <th style="text-align: left">Responsible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">09.00–10.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql/using_database_and_sql.html">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10.30–11.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11.00–13.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql/using_database_and_sql.html">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13.00–14.00</td>
+      <td style="text-align: left"><em>Lunch</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14.00–15.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql/using_database_and_sql.html">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15.30–16.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16.00–17.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql/using_database_and_sql.html">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">20.00–21.00</td>
+      <td style="text-align: left"><b>Author Carpentry</b></td>
+      <td style="text-align: left"><b>Speaker:</b> Gail Clement</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+<h4>Useful links:</h4>
+<ul>
+        
+            <li><a href='https://allegravia.github.io/codata-rda-vanilla-trieste-swcarpentry/'>Software Carpentry module website</a></li>
+            <li><a href='https://anelda.github.io/2016-08-01-codata-rda-trieste/'>Software Carpentry website c/o SWC</a></li>
+            <li><a href='http://indico.ictp.it/event/7658/'>The CODATA-RDA School of Research Data Science</a></li>
+            <li><a href='http://indico.ictp.it/event/7658/other-view?view=ictptimetable'>CODATA-RDA School Programme</a></li>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr>
+
+    <h2 class="footer-heading">Software Carpentry Module</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <b>Contact:</b>
+        <ul class="contact-list">
+          <li>Allegra Via<a href="mailto:a.via@ibbe.cnr.it"> a.via@ibbe.cnr.it</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text"> Programme and material for the software carpentry module at the CODATA RDA Vanilla School Trieste 2016
+</p>
+      </div>
+    </div>
+
+<!--
+
+    <div>
+      <h2> Sponsors:</h2>
+      <a href="http://msb.embopress.org/"><img src="/codata-rda-vanilla-trieste-swcarpentry/images/msb_embopress_logo_rgb.gif" height="70"></a>
+    </div>
+    <div>
+      <h2> With assistance from:</h2>
+      <img src="/codata-rda-vanilla-trieste-swcarpentry/images/cost-blue.png" height="70">
+      <img src="/codata-rda-vanilla-trieste-swcarpentry/images/ngpnet-logo.png" height="70">
+    </div>
+
+  </div>
+
+-->
+
+</footer>
+
+  </body>
+</html>
+=======
+CODATA-RDA Vanilla School 2016 <br>
+
+Software Carpentry 
+
+>>>>>>> 0e62d6e3fc877c3ae8aec3a3f609e6b4111ef365
+
